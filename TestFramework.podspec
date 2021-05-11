@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TestFramework"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "A short description of TestFramework."
   spec.description  = "A complete description of TestFramework"
 
@@ -11,11 +11,26 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Priyanka Gupta" => "priyankagupta23pg@gmail.com" }
   #spec.source       = { :path => '.' }
-  spec.source       = { :git => "https://github.com/priyankagupta23pg/TestFramework.git", :tag => "1.0.4" }
+  spec.source       = { :git => "https://github.com/priyankagupta23pg/TestFramework.git", :tag => "1.0.5" }
 
   
   spec.vendored_frameworks = 'TestFramework/Frameworks/DoubleConversion.framework'
-  
+  spec.vendored_frameworks = 'TestFramework/Frameworks/CoreModules.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/FBReactNativeSpec.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/RCTAnimation.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/RCTBlob.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/RCTImage.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/RCTLinking.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/RCTNetwork.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/RCTSettings.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/RCTText.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/RCTTypeSafety.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/RCTVibration.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/RNImageCropPicker.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/React.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/ReactCommon.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/TOCropViewController.framework'
+
   spec.source_files  = "TestFramework"
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "4.2" 
