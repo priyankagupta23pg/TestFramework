@@ -11,30 +11,9 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Priyanka Gupta" => "priyankagupta23pg@gmail.com" }
   #spec.source       = { :path => '.' }
-  spec.source       = { :git => "https://github.com/priyankagupta23pg/TestFramework.git", :tag => "1.0.1" }
+  spec.source       = { :git => "https://github.com/priyankagupta23pg/TestFramework.git", :tag => "1.0.2" }
 
-  spec.dependency 'FBLazyVector'
-  spec.dependency 'FBReactNativeSpec'
-  spec.dependency 'RCTRequired'
-  spec.dependency 'RCTTypeSafety'
-  spec.dependency 'React'
-  spec.dependency 'React-Core'
-  spec.dependency 'React-CoreModules'
-  spec.dependency 'React-Core/DevSupport'
-  spec.dependency 'React-RCTActionSheet'
-  spec.dependency 'React-RCTAnimation'
-  spec.dependency 'React-RCTBlob'
-  spec.dependency 'React-RCTImage'
-  spec.dependency 'React-RCTLinking'
-spec.dependency 'React-RCTNetwork'
-spec.dependency 'React-RCTSettings'
-spec.dependency 'React-RCTVibration'
-spec.dependency 'React-Core/RCTWebSocket'
-spec.dependency 'React-cxxreact'
-spec.dependency 'React-jsi'
-spec.dependency 'React-jsiexecutor'
-spec.dependency 'ReactCommon/callinvoker'
-spec.dependency 'ReactCommon/turbomodule/core'
+  
 spec.dependency 'Yoga'
 spec.dependency 'DoubleConversion'
 spec.dependency 'glog'
