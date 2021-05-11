@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TestFramework"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "A short description of TestFramework."
   spec.description  = "A complete description of TestFramework"
 
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Priyanka Gupta" => "priyankagupta23pg@gmail.com" }
   #spec.source       = { :path => '.' }
-  spec.source       = { :git => "https://github.com/priyankagupta23pg/TestFramework.git", :tag => "1.0.5" }
+  spec.source       = { :git => "https://github.com/priyankagupta23pg/TestFramework.git", :tag => "1.0.6" }
 
   
   spec.vendored_frameworks = 'TestFramework/Frameworks/DoubleConversion.framework'
@@ -30,6 +30,15 @@ spec.vendored_frameworks = 'TestFramework/Frameworks/RNImageCropPicker.framework
 spec.vendored_frameworks = 'TestFramework/Frameworks/React.framework'
 spec.vendored_frameworks = 'TestFramework/Frameworks/ReactCommon.framework'
 spec.vendored_frameworks = 'TestFramework/Frameworks/TOCropViewController.framework'
+
+spec.vendored_frameworks = 'TestFramework/Frameworks/yoga.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/jsireact.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/jsinspector.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/jsi.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/glog.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/folly.framework'
+spec.vendored_frameworks = 'TestFramework/Frameworks/cxxreact.framework'
+
 
   spec.source_files  = "TestFramework"
   spec.exclude_files = "Classes/Exclude"
